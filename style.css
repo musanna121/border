@@ -12,10 +12,12 @@ header h1{
     color: white;
     font-family: sans-serif;
     text-transform: uppercase;
+    margin-bottom: 60px;
     
 }
 #gallery{
     height: 920px;
+    vertical-align: top;
     /* background-color: grey;
     background-image: url('./images/back1.jpg');
     background-repeat: no-repeat;
@@ -26,6 +28,7 @@ header h1{
 }
 #gallery .one{
     display: inline-block;
+    vertical-align: top;
   height:200px;
   width: 200px;
   background-image: url('./images/pic1.jpg');
@@ -41,10 +44,10 @@ header h1{
   border-image-width: 50px;
   border-image-outset: 10px;
   margin-left: 300px;
-  margin-top: 50px;
   }
 #gallery .two{
     display: inline-block;
+    vertical-align: top;
     margin-left: 25px;
     height:200px;
     width: 200px;
@@ -64,6 +67,7 @@ header h1{
   }
   #gallery .three{ 
       display: inline-block;
+      vertical-align: top;
     margin-left: 25px;
     width: 190px;
     height: 128px;
@@ -79,8 +83,10 @@ header h1{
     border-image-slice: 100;
     border-image-width: 50px;
     border-image-outset: 10px;}
+
   #gallery .four{ 
       display: inline-block;
+      vertical-align: top;
     margin-left: 25px;
     height:160px;
     width: 110px;
@@ -96,8 +102,10 @@ header h1{
     border-image-slice: 70;
     border-image-width: 20px;
     border-image-outset: 10px;}
+
   #gallery .five{ 
       display: inline-block;
+      vertical-align: top;
     margin-left: 25px;
     height:200px;
     width: 200px;
