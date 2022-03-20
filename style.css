@@ -1,0 +1,115 @@
+body {
+    height: 800px;
+    background-color:#E7E9EB;
+    background-color: grey;
+    background-image: url('./images/back1.jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    background-position-y: -350px ;
+}
+header h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    
+}
+#gallery{
+    height: 920px;
+    /* background-color: grey;
+    background-image: url('./images/back1.jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    background-position-y: -350px ; */
+    
+
+}
+#gallery .one{
+    display: inline-block;
+  height:200px;
+  width: 200px;
+  background-image: url('./images/pic1.jpg');
+  background-repeat: no-repeat;
+  background-size: 325px;
+  background-position-x: 50% ;
+  background-position-y: -10px ;
+  border: 15px solid transparent;
+  padding: 15px;
+  border-image-source:url('./images/br1.jpg');  
+  border-image-repeat: repeat;
+  border-image-slice: 100;
+  border-image-width: 50px;
+  border-image-outset: 10px;
+  margin-left: 300px;
+  margin-top: 50px;
+  }
+#gallery .two{
+    display: inline-block;
+    margin-left: 25px;
+    height:200px;
+    width: 200px;
+    background-image: url('./images/space.jpg');
+    background-repeat: no-repeat;
+    background-size: 325px;
+    background-position-x: 50% ;
+    background-position-y: -10px ;
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image-source:url('./images/br2.png');  
+    border-image-repeat: repeat;
+    border-image-slice: 100;
+    border-image-width: 50px;
+    border-image-outset: 10px;
+    
+  }
+  #gallery .three{ 
+      display: inline-block;
+    margin-left: 25px;
+    width: 190px;
+    height: 128px;
+    background-image: url('./images/dgc.jpg');
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position-x: 50% ;
+    background-position-y: -15px ;
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image-source:url('./images/br4.png');  
+    border-image-repeat: repeat;
+    border-image-slice: 100;
+    border-image-width: 50px;
+    border-image-outset: 10px;}
+  #gallery .four{ 
+      display: inline-block;
+    margin-left: 25px;
+    height:160px;
+    width: 110px;
+    background-image: url('./images/s2.jpg');
+    background-repeat: no-repeat;
+    background-size: 325px;
+    background-position-x: 50% ;
+    background-position-y: -70px ;
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image-source:url('./images/border.jpg');  
+    border-image-repeat: repeat;
+    border-image-slice: 70;
+    border-image-width: 20px;
+    border-image-outset: 10px;}
+  #gallery .five{ 
+      display: inline-block;
+    margin-left: 25px;
+    height:200px;
+    width: 200px;
+    background-image: url('./images/china.jpg');
+    background-repeat: no-repeat;
+    background-size: 245px;
+    background-position-x: 50% ;
+    background-position-y: -5px ;
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image-source:url('./images/b5.png');  
+    border-image-repeat: stretch;
+    border-image-slice: 35;
+    border-image-width: 20px;
+    border-image-outset: 10px;}
